@@ -1,4 +1,4 @@
-import mongoose from 'mongoose'
+import mongoose from 'mongoose';
 
 const reviewSchema = mongoose.Schema({
     name:{type:String,required:true},
@@ -6,7 +6,7 @@ const reviewSchema = mongoose.Schema({
     comment:{type:String,required:true},
 },{
     timestamps:true,
-})
+});
 
 const productSchema = mongoose.Schema({
     user:{
